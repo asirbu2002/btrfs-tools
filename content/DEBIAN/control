@@ -1,5 +1,6 @@
 Package: btrfs-tools
-Version: 1.0-xbian
+Origin: XBian
+Version: 1.0-xbian2
 Architecture: armhf
 Maintainer: Luk Claes <luk@debian.org>
 Depends: e2fslibs (>= 1.42), libc6 (>= 2.13-28), libcomerr2 (>= 1.01), libgcc1 (>= 1:4.4.0), libuuid1 (>= 2.16), zlib1g (>= 1:1.2.0), liblzo2-2
@@ -14,4 +15,4 @@ Description: Checksumming Copy on Write Filesystem utilities
  This package contains utilities (mkfs, fsck, btrfsctl) used to work with btrfs
  and an utility (btrfs-convert) to make a btrfs filesystem from an ext3.
  .
- git commit 194aa4a1bd6447bb545286d0bcb0b0be8204d79f from Fri Jul 5 13:44:07 2013 -0400
+ commit e9ac73b441b1b05b57ce99be1aff02eac6929448 / Fri Nov 15 19:11:09 2013 +0800 
